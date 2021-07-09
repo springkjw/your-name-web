@@ -1,5 +1,9 @@
 import React from 'react';
 
-export default function App() {
+import { withStore } from '@store';
+
+function App() {
   return <></>;
 }
+
+export default withStore(App);
